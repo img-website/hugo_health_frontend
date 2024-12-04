@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./assets/css/output.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <!-- header -->
+  <div class="bg-white shadow-sm py-5 fixed top-0 z-50 w-full">
+    <div class="max-w-7xl px-6 md:px-8 mx-auto flex  justify-between w-full">
+      <a href="index.html">
+        <img src="./assets/img/main-logo.svg" alt="logo main" class="h-[38px]">
+      </a>
+      <ul class="items-center list-none md:flex gap-12 text-sm text-slate-800 font-semibold *:duration-300 hidden">
+        <li class="hover:text-secondary group relative flex justify-center items-center !gap-2"> <span><a
+              href="javascript:;">Solution</a></span>
+          <span class="*:w-3 *:h-full *:pt-1 text-slate-800">
+            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em"
+              width="1em" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="m98 190.06 139.78 163.12a24 24 0 0 0 36.44 0L414 190.06c13.34-15.57 2.28-39.62-18.22-39.62h-279.6c-20.5 0-31.56 24.05-18.18 39.62z">
+              </path>
+            </svg>
+          </span>
+          <ul
+            class="group-hover:opacity-100 invisible group-hover:visible opacity-0 absolute *:py-2 *:px-4 *:pe-28 *:border-b *:border-white/40 text-white shadow text-sm -bottom-28 left-0 duration-300 translate-y-4 group-hover:translate-y-2 before:absolute before:-z-10 before:size-full before:-top-4">
+            <li class="hover:bg-white hover:text-secondary bg-secondary duration-500"><a href="javascript:;">HCPs</a>
+            </li>
+            <li class="hover:bg-white hover:text-secondary bg-secondary duration-500"><a
+                href="javascript:;">Individuals</a></li>
+            <li class="hover:bg-white hover:text-secondary bg-secondary duration-500"><a href="javascript:;">pharma</a>
+            </li>
+          </ul>
+        </li>
+        <li class="hover:text-secondary group relative flex justify-center items-center !gap-2"> <span><a
+              href="javascript:;">Proudcts</a></span>
+          <span class="*:w-3 *:h-full *:pt-1 text-slate-800">
+            <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em"
+              width="1em" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="m98 190.06 139.78 163.12a24 24 0 0 0 36.44 0L414 190.06c13.34-15.57 2.28-39.62-18.22-39.62h-279.6c-20.5 0-31.56 24.05-18.18 39.62z">
+              </path>
+            </svg>
+          </span>
+          <ul
+            class="group-hover:opacity-100 invisible group-hover:visible opacity-0 absolute *:py-2 *:px-4  w-40 *:border-b *:border-white/40 text-white shadow text-sm -bottom-[74px] left-0 duration-300 translate-y-4 group-hover:translate-y-2 before:absolute before:size-full before:-top-4 before:-z-50">
+            <li class="hover:bg-white hover:text-secondary bg-secondary duration-500 flex justify-between">
+              <span><a href="javascript:;">My Tatva</a></span>
+              <span class="*:w-3 *:h-full *:pt-1 -rotate-90 "><svg stroke="currentColor" fill="currentColor"
+                  stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="m98 190.06 139.78 163.12a24 24 0 0 0 36.44 0L414 190.06c13.34-15.57 2.28-39.62-18.22-39.62h-279.6c-20.5 0-31.56 24.05-18.18 39.62z">
+                  </path>
+                </svg></span>
+
+            </li>
+            <li class="hover:bg-white hover:text-secondary bg-secondary duration-500"><a
+                href="javascript:;">Individuals</a></li>
+          </ul>
+        </li>
+        <li class="hover:text-secondary"><a href="javascript:;">ABHA</a></li>
+        <li class="hover:text-secondary"><a href="javascript:;">Blogs</a></li>
+        <li class="hover:text-secondary"><a href="javascript:;">About Us</a></li>
+      </ul>
+      <div class="flex md:hidden">
+        <label for="sideToggle"
+          class="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-secondary group-[]/nav:text-black">
+          <span class="sr-only">Open menu</span>
+          <svg class="size-7" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+            aria-hidden="true">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5">
+            </path>
+          </svg>
+        </label>
+      </div>
+    </div>
+  </div>
+
+  <!-- responsive header -->
+  <input type="checkbox" class="peer/sideToggle hidden " name="sideToggle" id="sideToggle">
+
+  <div
+    class="fixed flex flex-col h-screen inset-y-0 right-0 z-[1011] w-full overflow-y-auto bg-black/90 select-none text-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-theme1/10 peer-checked/sideToggle:translate-x-0 peer-checked/sideToggle:opacity-100 translate-x-full opacity-0 duration-300">
+    <div class="flex items-center justify-between">
+      <a href="" class="-ml-1.5">
+        <span class="sr-only">medicare</span>
+        <img class="h-7 w-auto 	" width="174" height="48" src="./assets/img/main-logo.svg" alt=" Logo">
+      </a>
+      <label for="sideToggle" type="button" class="-m-2.5 rounded-md p-2.5 text-gray-200">
+        <span class="sr-only">Close menu</span>
+        <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
+          aria-hidden="true">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path>
+        </svg>
+      </label>
+    </div>
+    <div class="mt-6 flow-root flex-fill -mr-4 pr-4">
+      <div class="-my-6 divide-y divide-gray-500/10">
+        <div class="space-y-2 py-6">
+          <div class="flex flex-col gap-5 items-center">
+            <div class="flex flex-col w-full gap-y-5">
+              <a href="" class="text-sm font-bold text-gray-50">Home</a>
+              <div class="relative flex flex-col gap-y-3">
+                <input class="peer/mm hidden" type="checkbox" name="mmMenu" id="mmCompany">
+                <label for="mmCompany" class="flex items-center gap-x-[2px] text-sm font-bold text-gray-50">
+                  Services
+                  <svg class="h-5 w-5 ml-auto flex-none text-gray-400" viewBox="0 0 20 20" fill="currentColor"
+                    aria-hidden="true">
+                    <path fill-rule="evenodd"
+                      d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+                      clip-rule="evenodd"></path>
+                  </svg>
+                </label>
+                <div class="w-full peer-checked/mm:block hidden">
+                  <div class="grid grid-cols-1 flex-wrap w-full gap-4">
+                    <li class="text-white text-sm"><a href="javascript:;">HCPs</a></li>
+                    <li class="text-white text-sm"><a href="javascript:;">Individuals</a></li>
+                    <li class="text-white text-sm"><a href="javascript:;">pharma</a></li>
+                  </div>
+                </div>
+              </div>
+              <a href="" class="text-sm font-bold text-gray-50">Product</a>
+              <a href="" class="text-sm font-bold text-gray-50">Abha</a>
+              <a href="" class="text-sm font-bold text-gray-50">Blog</a>
+              <a href="" class="text-sm font-bold text-gray-50">About Us</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- responsive header -->
+  <!-- header-end -->
+
+  <!-- hero start -->
+  <div class="[background:_linear-gradient(180deg,_#e4eef3_25.16%,_#a7a5d3_111.19%)] w-full pb-20">
+    <div class="max-w-7xl px-6 md:px-8 h-full mx-auto mt-[78px] pt-20">
+      <div class="grid md:grid-cols-2 gap-[1.5rem]">
+        <div class="">
+          <div class="text-[#3e3d3d] text-4xl font-medium  text-balance mb-5">
+            Let's make <br> every day better!
+          </div>
+          <div class="text-[#5e5e5e] text-[18px] md:text-[22px] !leading-tight pb-[30px]">
+            TatvaCare is a digital system that empowers both healthcare professionals and individuals with chronic
+            conditions to create healthy habits leading to positive health outcomes.
+          </div>
+
+          <div class="flex md:flex-nowrap flex-wrap gap-4 *:max-md:w-full">
+            <button
+              class="bg-[#703b96] hover:bg-[#553BD4] duration-700 md:py-5 md:px-[30px] p-4 rounded-[20px] text-sm md:text-[19px] font-bold text-white text-left ">For
+              Individuals</button>
+            <button
+              class="bg-[#703b96] hover:bg-[#553BD4] duration-700 md:py-5 md:px-[30px] p-4 rounded-[20px] text-sm md:text-[19px] font-bold text-white text-left ">For
+              Healthcare Professionals</button>
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <div class="max-w-[607px]  h-auto *:size-full">
+            <img src="./assets/img/TCHome.png" alt="heroimg">
+
+          </div>
+        </div>
+
+      </div>
+      <div class="text-[#939ca1] text-[18px] pb-[30px]">
+        TATVACARE PRODUCTS
+      </div>
+      <div class="grid md:grid-cols-2 gap-[1.5rem] items-center">
+        <div class="text-[#3e3d3d] text-[21px] md:text-[32px] font-semibold">
+          We enable doctors by digitizing their practice journey and provide patients with personalized care programs.
+        </div>
+        <div class="text-[#5e5e5e] text-[18px] md:text-[22px]">
+          We facilitate a positive health journey and improve patient’s outcomes, by improving the quality of care on
+          one end and enhancing the quality of life on the other.
+        </div>
+        <div>
+
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-[1.5rem]">
+        <div class="[box-shadow:_0_1px_20px_-4px_rgba(0, 0, 0, .2)] bg-white rounded-[30px] p-4 md:p-10">
+          <div class="text-[25px] font-semibold mb-1">FOR INDIVIDUALS</div>
+          <div class="text-[#5e5e5e] text-[18px] pb-[30px] font-normal">
+            CHRONIC CARE MANAGEMENT
+          </div>
+          <div class="w-[150px] h-auto *:size-full pb-10">
+            <img src="./assets/img/MyTatva-logo-1.png" alt="my-tatva-logo">
+          </div>
+          <div class="grid md:grid-cols-2 items-center">
+            <div class="div">
+              <div class="text-[#5e5e5e] text-[19px] pb-5">
+                Your very own care companion that helps you to take control of your health, one step at a time.
+              </div>
+              <div class="text-[#5e5e5e] text-[19px] pb-5">
+                Explore our personalized care plans delivered with MyTatva- a DTx application.
+              </div>
+              <button
+                class="bg-[#703b96] hover:bg-[#553BD4] duration-700 font-semibold text-white text-[20px] p-4 md:p-5 w-max rounded-[20px] mt-2.5">Read
+                More</button>
+            </div>
+            <div class="size-full *:w-full h-auto">
+              <img src="./assets/img/Patient-Mobile2.png" alt="">
+            </div>
+
+
+          </div>
+        </div>
+        <div class="[box-shadow:_0_1px_20px_-4px_rgba(0, 0, 0, .2)] bg-white rounded-[30px] p-4 md:p-10">
+          <div class="text-[25px] font-semibold mb-1">FOR HEALTHCARE PROFESSIONALS</div>
+          <div class="text-[#5e5e5e] text-[18px] pb-[30px] font-normal">
+            PATIENT CARE AND PRACTICE MANAGEMENT
+          </div>
+          <div class="w-[150px] h-auto *:size-full pb-10">
+            <img src="./assets/img/TatvaPracticelogo.png" alt="practicle logo">
+          </div>
+          <div class="grid md:grid-cols-2 items-center">
+            <div class="div">
+              <div class="text-[#5e5e5e] text-[19px] pb-5">
+                All-in-one platform that smartly manages your practice, allowing you to deliver exceptional patient care
+                effortlessly.
+              </div>
+              <div class="text-[#5e5e5e] text-[19px] pb-5">
+                Digitise your practice with TatvaPractice, an  ABDM-certified platform.
+              </div>
+              <button
+                class="bg-[#703b96] hover:bg-[#553BD4] duration-700 font-semibold text-white text-[20px] p-4 md:p-5 w-max rounded-[20px] mt-2.5">Read
+                More</button>
+
+            </div>
+            <div class="size-full *:w-full h-auto">
+              <img src="./assets/img/Doc-Mobile2.png" alt="banner-shape-1">
+            </div>
+
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+    <div class="left-0 absolute top-96 hidden md:block">
+      <svg class="left-shape" xmlns="http://www.w3.org/2000/svg" width="186" height="249" viewBox="0 0 186 249"
+        fill="none">
+        <path opacity="0.21"
+          d="M157.276 231.48H13.2078C-2.20522 231.48 -14.6992 218.986 -14.6992 203.574V59.5046C-14.6992 44.0916 -2.20522 31.5977 13.2078 31.5977H157.277C172.69 31.5977 185.184 44.0926 185.184 59.5046V203.574C185.183 218.986 172.689 231.48 157.276 231.48Z"
+          stroke="#703B96" stroke-miterlimit="10"></path>
+        <path
+          d="M86.9121 248.261H62.7241C60.1371 248.261 58.0391 246.163 58.0391 243.576V219.388C58.0391 216.801 60.1371 214.703 62.7241 214.703H86.9121C89.5001 214.703 91.5981 216.801 91.5981 219.388V243.576C91.5971 246.163 89.5001 248.261 86.9121 248.261Z"
+          fill="white"></path>
+        <path
+          d="M42.6423 102H-36.6423C-45.1244 102 -52 95.6244 -52 87.7593V14.2408C-52 6.37561 -45.1244 0 -36.6423 0H42.6423C51.1244 0 58 6.37561 58 14.2408V87.7593C58 95.6244 51.1244 102 42.6423 102Z"
+          fill="white"></path>
+      </svg>
+    </div>
+    <div class="absolute right-0 top-[650px] opacity-85 hidden md:block">
+      <img src="./assets/img/home-banner-shape2.png" alt="banner-image-shape-2">
+    </div>
+  </div>
+
+  <!-- hero end -->
+
+  <div class="py-[50px]">
+    <div class="max-w-7xl px-6 md:px-8 mx-auto">
+      <div class="grid md:grid-cols-12 items-center gap-[1.5rem]">
+        <div class="col-span-5 h-auto *:size-full">
+          <img src="./assets/img/Sage1.png" alt="cta image">
+        </div>
+        <div class="col-span-1md:block hidden"></div>
+        <div class="col-span-6">
+          <div class="text-[42px] text-[#3e3d3d] font-semibold mb-[18px]">We’re here for you.</div>
+          <div class="text-[22px] text-[#5e5e5e] mb-5">Everyone across the board, both healthcare providers and
+            recipients, deserve to lead a life filled with safe action, clarity and control.</div>
+          <div class="text-[22px] text-[#5e5e5e] mb-5">This is our fundamental belief, our motivation and our mission.
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="max-w-7xl px-6 md:px-8 mx-auto">
+      <div class="grid md:grid-cols-2 gap-[1.5rem]">
+        <div class="rounded-[20px] overflow-hidden bg-[#f1f2f2] relative pb-16">
+          <div class="[background:_linear-gradient(90deg,_#e4eef3_0%,_#a7a5d3_92.76%)] md:p-10 p-6">
+            <div class="text-[29px] text-[#5e5e5e] font-semibold mb-5">For Individuals</div>
+            <div class="text-[20px] text-[#5e5e5e] lg:w-[85%] w-full">You deserve the best possible quality of care and
+              support. We are together with you on this journey. </div>
+          </div>
+          <div class="md:p-10 p-6 pb-28 flex flex-col gap-5">
+            <div class="flex  md:gap-4 gap-3">
+              <div class="md:size-5 size-4 shrink-0 *:size-full *:object-contain">
+                <img src="./assets/img/tick.png" alt="">
+              </div>
+              <div class="md:text-[22px] text-[14px] font-light">Intelligent App for lifestyle modifications</div>
+            </div>
+            <div class="flex  md:gap-4 gap-3">
+              <div class="md:size-5 size-4 shrink-0 *:size-full *:object-contain">
+                <img src="./assets/img/tick.png" alt="">
+              </div>
+              <div class="md:text-[22px] text-[14px] font-light">Outcome based Personalised Care Programs</div>
+            </div>
+            <div class="flex  md:gap-4 gap-3">
+              <div class="md:size-5 size-4 shrink-0 *:size-full *:object-contain">
+                <img src="./assets/img/tick.png" alt="">
+              </div>
+              <div class="md:text-[22px] text-[14px] font-light">Dedicated Coaching</div>
+            </div>
+            <div class="flex  md:gap-4 gap-3">
+              <div class="md:size-5 size-4 shrink-0 *:size-full *:object-contain">
+                <img src="./assets/img/tick.png" alt="">
+              </div>
+              <div class="md:text-[22px] text-[14px] font-light">Relay adherence insights to your treating doctor</div>
+            </div>
+            <div class="flex  md:gap-4 gap-3">
+              <div class="md:size-5 size-4 shrink-0 *:size-full *:object-contain">
+                <img src="./assets/img/tick.png" alt="">
+              </div>
+              <div class="md:text-[22px] text-[14px] font-light">Book lab tests, order medicines and devices</div>
+            </div>
+
+          </div>
+          <button
+            class="absolute bottom-0 z-40 left-1/2 -translate-x-1/2 bg-[#703b96] hover:bg-[#553BD4] duration-700 mt-2.5 text-white text-[16px] md:text-[20px] p-3  md:p-5 rounded-[20px] font-bold">Go
+            to MyTatva</button>
+        </div>
+        <div class="rounded-[20px] overflow-hidden bg-[#f1f2f2] relative pb-16">
+          <div class="[background:_linear-gradient(90deg,_#e4eef3_0%,_#a7a5d3_92.76%)] md:p-10 p-6">
+            <div class="text-[29px] text-[#5e5e5e] font-semibold mb-5">For Healthcare Professionals</div>
+            <div class="text-[20px] text-[#5e5e5e] lg:w-[85%] w-full">Minimise administrative workload and focus on
+              what's really important: patient care and the growth of your practice. </div>
+          </div>
+          <div class="md:p-10 p-6 pb-28 flex flex-col gap-5">
+            <div class="flex  md:gap-4 gap-3">
+              <div class="md:size-5 size-4 shrink-0 *:size-full *:object-contain">
+                <img src="./assets/img/tick.png" alt="">
+              </div>
+              <div class="md:text-[22px] text-[14px] font-light">ABDM Certified</div>
+            </div>
+            <div class="flex  md:gap-4 gap-3">
+              <div class="md:size-5 size-4 shrink-0 *:size-full *:object-contain">
+                <img src="./assets/img/tick.png" alt="">
+              </div>
+              <div class="md:text-[22px] text-[14px] font-light">Highest level of Data Security </div>
+            </div>
+            <div class="flex  md:gap-4 gap-3">
+              <div class="md:size-5 size-4 shrink-0 *:size-full *:object-contain">
+                <img src="./assets/img/tick.png" alt="">
+              </div>
+              <div class="md:text-[22px] text-[14px] font-light">Boost patient connect and loyalty</div>
+            </div>
+            <div class="flex  md:gap-4 gap-3">
+              <div class="md:size-5 size-4 shrink-0 *:size-full *:object-contain">
+                <img src="./assets/img/tick.png" alt="">
+              </div>
+              <div class="md:text-[22px] text-[14px] font-light">Thriving HCP Community</div>
+            </div>
+            <div class="flex  md:gap-4 gap-3">
+              <div class="md:size-5 size-4 shrink-0 *:size-full *:object-contain">
+                <img src="./assets/img/tick.png" alt="">
+              </div>
+              <div class="md:text-[22px] text-[14px] font-light">Value Added Services for Clinic Promotions</div>
+            </div>
+
+          </div>
+          <button
+            class="absolute bottom-0 z-40 left-1/2 -translate-x-1/2 bg-[#703b96] hover:bg-[#553BD4] duration-700 mt-2.5 text-white text-[16px] md:text-[20px] p-3  md:p-5 rounded-[20px] font-bold ">Go
+            to TatvaPractice</button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- cta -->
+  <div class="bg-[#432C84] md:py-[50px] py-10">
+    <div class="max-w-7xl px-6 md:px-8 h-full mx-auto ">
+      <div class="grid lg:grid-cols-12 lg:gap-[1.5rem] items-center">
+        <div class="col-span-5">
+          <div class="md:text-[30px] text-[16px] font-light text-white">
+            At TatvaCare, we believe in a holistic approach that improves the quality of life for both individuals and
+            healthcare professionals.
+          </div>
+        </div>
+        <div class="col-span-7">
+          <div class="max-md:mt-4">
+            <iframe src="https://www.youtube.com/embed/hODTcLtSjQI?si=GVlNDbvRpfq_BE5P" title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+              class="rounded-[30px] w-full aspect-video"></iframe>
+            <!-- <iframe src="https://youtu.be/nSM4_AMX_NI?si=u9hZTnJgTGXrO5Dd" frameborder="0" class="size-full aspect-[1/.4]"></iframe> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- cta -->
+  <!-- cards -->
+  <div>
+    <div class="max-w-7xl mx-auto px-6 lg:px-8 md:py-[50px] py-10">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <div class=" w-full ">
+          <div class="size-[140px] *:size-full mx-auto">
+            <img src="./assets/img/virtual.png" alt="card-1-img">
+          </div>
+          <div class="text-[#3e3d3d] mt-[25px] text-[32px] text-center">Digital Intervention</div>
+          <div class="text-center text-[#5e5e5e] text-[22px] font-normal pt-5">Our products empower caregivers and
+            support care recipients by bridging the gap with data driven interventions.</div>
+        </div>
+        <div class=" w-full ">
+          <div class="size-[140px] *:size-full mx-auto">
+            <img src="./assets/img/medical-team.png" alt="card-1-img">
+          </div>
+          <div class="text-[#3e3d3d] mt-[25px] text-[32px] text-center">Doctors at the core</div>
+          <div class="text-center text-[#5e5e5e] text-[22px] font-normal pt-5">A doctor's time and energy are the more
+            important resource in making our country healthy, and their efficiency is at the center of our solutions.
+          </div>
+        </div>
+        <div class=" w-full ">
+          <div class="size-[140px] *:size-full mx-auto">
+            <img src="./assets/img/advice.png" alt="card-1-img">
+          </div>
+          <div class="text-[#3e3d3d] mt-[25px] text-[32px] text-center">Patients First</div>
+          <div class="text-center text-[#5e5e5e] text-[22px] font-normal pt-5">Chronic condition management feels tiring
+            and stressful. We are on a mission to change that by bringing them the comprehensive health support that
+            they deserve, without the stress.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- cards-end -->
+
+  <!-- newsroom -->
+
+  <div class="max-w-7xl px-6 lg:px-8 mx-auto">
+    <div class="text-[#939ca1] text-sm font-normal mb-10">NEWS ROOM</div>
+    <div class="flex items-center justify-between lg:flex-nowrap flex-wrap">
+      <div class="text-[42px] font-semibold text-[#3e3d3d]">Stay Updated with the Latest</div>
+      <button
+        class="border border-[#703b96] hover:bg-[#703b96] duration-500 text-[#703b96] hover:text-white p-3 md:p-5 text-nowrap md:text-[19px] text-[15px] font-semibold md:font-bold rounded-[20px]">
+        News Room
+      </button>
+    </div>
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4 mt-10 mb-10">
+      <div>
+        <div class="rounded-[24px] shadow-md size-full overflow-hidden ">
+          <div class="*:size-full">
+            <img src="./assets/img/iamai-healthtech-committee.jpg" alt="newsroom-image-1 ">
+          </div>
+          <div class="py-5 px-[30px] text-[18px] text-[#5e5e5e]">
+            IAMAI HealthTech Committee elects new leaders
+          </div>
+
+        </div>
+      </div>
+      <div>
+        <div class="rounded-[24px] shadow-md size-full overflow-hidden ">
+          <div class="*:size-full">
+            <img src="./assets/img/001.png" alt="newsroom-image-2">
+          </div>
+          <div class="py-5 px-[30px] text-[18px] text-[#5e5e5e]">
+            TatvaCare Explores Digital Therapeutics for Better Management of COPD and Asthma in India
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  </div>
+  <!-- newsroom -->
+
+  <div class="py-[50px] bg-[#A2A1D0]">
+    <div class="max-w-7xl px-6 lg:px-8 mx-auto">
+      <div class="grid grid-cols-12 gap-4 items-center">
+        <div class="lg:col-span-4 md:col-span-6 col-span-12">
+          <div class="size-full h-auto *:size-full">
+            <img src="./assets/img/Homepagebottom.png" alt="cta img">
+          </div>
+
+
+        </div>
+        <div class="lg:col-span-4 md:col-span-6 col-span-12">
+          <div class="text-white text-[32px] font-semibold mb-5">
+            Make a Difference
+          </div>
+          <div class="text-[22px] text-white">
+            We are committed to making a long-lasting positive change to the world of Healthcare Management.
+          </div>
+        </div>
+        <div class="lg:col-span-4 col-span-12  !ms-auto">
+          <button class="bg-white p-5 rounded-[20px] font-bold text-[14px]">Join The Team</button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <!-- footer -->
+  <footer class="py-10 bg-[#432D85]">
+    <div class="max-w-7xl px-6 lg:px-8 mx-auto">
+      <div class="flex max-lg:flex-wrap w-full">
+       <div class="lg:w-[40%] sm:w-full max-md:flex-wrap flex ">
+        <div class="sm:w-[60%] w-full pe-4">
+          <div class="h-[54px] w-auto *:size-full mb-3">
+            <a href="javascript:;">
+              <img src="./assets/img/footer-logo.png" alt="footer-logo">
+            </a>
+          </div>
+          <div class="text-white text-[16px] font-semibold">
+            We are a full-spectrum technology solution that solves across various aspects of both patients’ and doctors’
+            needs and their interactions to significantly improve health positives.
+          </div>
+        </div>
+        <div class="sm:w-[40%] w-full pe-4">
+          <div class="text-[24px] text-white font-medium lg:mb-[30px] mb-4 max-md:mt-5">Quick Links</div>
+
+          <div class="flex items-center gap-2 pb-2">
+            <a href="javascript:;" class="text-white size-5 *:size-full *:object-contain *:-rotate-90">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em"
+                width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                  d="M336 176h40a40 40 0 0 1 40 40v208a40 40 0 0 1-40 40H136a40 40 0 0 1-40-40V216a40 40 0 0 1 40-40h40">
+                </path>
+                <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                  d="m176 272 80 80 80-80M256 48v288"></path>
+              </svg>
+            </a>
+            <a href="#javascript:;" class="text-white text-[16px] font-semibold">Blog</a>
+          </div>
+          <div class="flex items-center gap-2 pb-2">
+            <a href="javascript:;" class="text-white size-5 *:size-full *:object-contain *:-rotate-90">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em"
+                width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                  d="M336 176h40a40 40 0 0 1 40 40v208a40 40 0 0 1-40 40H136a40 40 0 0 1-40-40V216a40 40 0 0 1 40-40h40">
+                </path>
+                <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                  d="m176 272 80 80 80-80M256 48v288"></path>
+              </svg>
+            </a>
+            <a href="#javascript:;" class="text-white text-[16px] font-semibold">About Us</a>
+          </div>
+          <div class="flex items-center gap-2 pb-2">
+            <a href="javascript:;" class="text-white size-5 *:size-full *:object-contain *:-rotate-90">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em"
+                width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                  d="M336 176h40a40 40 0 0 1 40 40v208a40 40 0 0 1-40 40H136a40 40 0 0 1-40-40V216a40 40 0 0 1 40-40h40">
+                </path>
+                <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                  d="m176 272 80 80 80-80M256 48v288"></path>
+              </svg>
+            </a>
+            <a href="#javascript:;" class="text-white text-[16px] font-semibold">Careers</a>
+          </div>
+          <div class="flex items-center gap-2 pb-2">
+            <a href="javascript:;" class="text-white size-5 *:size-full *:object-contain *:-rotate-90">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em"
+                width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                  d="M336 176h40a40 40 0 0 1 40 40v208a40 40 0 0 1-40 40H136a40 40 0 0 1-40-40V216a40 40 0 0 1 40-40h40">
+                </path>
+                <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                  d="m176 272 80 80 80-80M256 48v288"></path>
+              </svg>
+            </a>
+            <a href="#javascript:;" class="text-white text-[16px] font-semibold">Contact</a>
+          </div>
+          <div class="flex items-center gap-2 pb-2">
+            <a href="javascript:;" class="text-white size-5 *:size-full *:object-contain *:-rotate-90">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em"
+                width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                  d="M336 176h40a40 40 0 0 1 40 40v208a40 40 0 0 1-40 40H136a40 40 0 0 1-40-40V216a40 40 0 0 1 40-40h40">
+                </path>
+                <path fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                  d="m176 272 80 80 80-80M256 48v288"></path>
+              </svg>
+            </a>
+            <a href="#javascript:;" class="text-white text-[16px] font-semibold">News Room</a>
+          </div>
+
+        </div>
+       </div>
+       <div class="lg:w-[60%] sm:w-full flex max-md:flex-wrap">
+        <div class="sm:w-[60%] pe-4 w-full">
+          <div class="text-[24px] text-white font-medium lg:mb-[30px] mb-4 max-md:mt-5">Offices</div>
+          <div class="text-white text-[18px] font-light">Bangalore</div>
+          <div class="text-white text-[16px] font-semibold mt-1">
+            Digicare Health Solutions Pvt. Ltd.,
+          </div>
+          <div class="text-white text-[15px]">
+            2nd Floor, 14th Main Rd, Sector 5, Agara Village, 1st Sector, HSR Layout, Bangalore, Karnataka - 560102
+          </div>
+          <div class="text-white text-[18px] font-light mt-6">Bangalore</div>
+          <div class="text-white text-[16px] font-semibold mt-1">
+            Digicare Health Solutions Pvt. Ltd.,
+          </div>
+          <div class="text-white text-[15px]">
+            2nd Floor, 14th Main Rd, Sector 5, Agara Village, 1st Sector, HSR Layout, Bangalore, Karnataka - 560102
+          </div>
+
+
+        </div>
+        <div class="sm:w-[40%] pe-4 w-full ">
+          <div class="text-[24px] text-white font-medium lg:mb-[30px] mb-4 max-md:mt-5">Contact Us</div>
+          <div class="flex items-center gap-2 text-white">
+            <div class="size-6 *:size-full">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0V0z"></path><path d="M15 12h2c0-2.76-2.24-5-5-5v2c1.66 0 3 1.34 3 3zm4 0h2a9 9 0 0 0-9-9v2c3.87 0 7 3.13 7 7zm1 3.5c-1.25 0-2.45-.2-3.57-.57-.1-.03-.21-.05-.31-.05-.26 0-.51.1-.71.29l-2.2 2.2a15.045 15.045 0 0 1-6.59-6.59l2.2-2.21a.96.96 0 0 0 .25-1A11.36 11.36 0 0 1 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1zM5.03 5h1.5c.07.88.22 1.75.45 2.58l-1.2 1.21c-.4-1.21-.66-2.47-.75-3.79zM19 18.97c-1.32-.09-2.6-.35-3.8-.76l1.2-1.2c.85.24 1.72.39 2.6.45v1.51z"></path></svg>
+            </div>
+            <a href="tel:+91 99740 42363" class="text-[16px] font-semibold">+91 99740 42363</a>
+      
+          </div>
+          <div class="text-white font-medium text-[15px] pt-1">(Monday - Saturday | 9am to 8pm)</div>
+          <div class="flex items-center gap-2 text-white mt-4">
+            <div class="size-6 *:size-full">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path fill="none" d="M0 0h24v24H0z"></path><path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h8v-2H4V8l8 5 8-5v5h2V6c0-1.1-.9-2-2-2zm-8 7L4 6h16l-8 5zm5.34 11-3.54-3.54 1.41-1.41 2.12 2.12 4.24-4.24L23 16.34 17.34 22z"></path></svg>
+            </div>
+            <a href="mailto:xyz@gmail.com" class="text-[16px] font-semibold" >support@tatvacare.in</a>
+
+          </div>
+
+          <div class="text-white font-medium  text-[18px] mt-7">Follow Us</div>
+          <div class="flex gap-2 mt-3">
+            <a href="javascript:;" class="bg-white size-9 rounded-full *:size-full p-2 text-[#432D85] hover:text-white hover:bg-[#A2A1D0] duration-700">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M6.94048 4.99993C6.94011 5.81424 6.44608 6.54702 5.69134 6.85273C4.9366 7.15845 4.07187 6.97605 3.5049 6.39155C2.93793 5.80704 2.78195 4.93715 3.1105 4.19207C3.43906 3.44699 4.18654 2.9755 5.00048 2.99993C6.08155 3.03238 6.94097 3.91837 6.94048 4.99993ZM7.00048 8.47993H3.00048V20.9999H7.00048V8.47993ZM13.3205 8.47993H9.34048V20.9999H13.2805V14.4299C13.2805 10.7699 18.0505 10.4299 18.0505 14.4299V20.9999H22.0005V13.0699C22.0005 6.89993 14.9405 7.12993 13.2805 10.1599L13.3205 8.47993Z"></path></svg>
+            </a>
+            <a href="javascript:;" class="bg-white size-9 rounded-full *:size-full p-2 text-[#432D85] hover:text-white hover:bg-[#A2A1D0] duration-700">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M389.2 48h70.6L305.6 224.2 487 464H345L233.7 318.6 106.5 464H35.8L200.7 275.5 26.8 48H172.4L272.9 180.9 389.2 48zM364.4 421.8h39.1L151.1 88h-42L364.4 421.8z"></path></svg>
+            </a>
+            <a href="javascript:;" class="bg-white size-9 rounded-full *:size-full p-2 text-[#432D85] hover:text-white hover:bg-[#A2A1D0] duration-700">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"></path></svg>
+            </a>
+            <a href="javascript:;" class="bg-white size-9 rounded-full *:size-full p-2 text-[#432D85] hover:text-white hover:bg-[#A2A1D0] duration-700">
+              <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 1024 1024" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M960 509.2c0-2.2 0-4.7-.1-7.6-.1-8.1-.3-17.2-.5-26.9-.8-27.9-2.2-55.7-4.4-81.9-3-36.1-7.4-66.2-13.4-88.8a139.52 139.52 0 0 0-98.3-98.5c-28.3-7.6-83.7-12.3-161.7-15.2-37.1-1.4-76.8-2.3-116.5-2.8-13.9-.2-26.8-.3-38.4-.4h-29.4c-11.6.1-24.5.2-38.4.4-39.7.5-79.4 1.4-116.5 2.8-78 3-133.5 7.7-161.7 15.2A139.35 139.35 0 0 0 82.4 304C76.3 326.6 72 356.7 69 392.8c-2.2 26.2-3.6 54-4.4 81.9-.3 9.7-.4 18.8-.5 26.9 0 2.9-.1 5.4-.1 7.6v5.6c0 2.2 0 4.7.1 7.6.1 8.1.3 17.2.5 26.9.8 27.9 2.2 55.7 4.4 81.9 3 36.1 7.4 66.2 13.4 88.8 12.8 47.9 50.4 85.7 98.3 98.5 28.2 7.6 83.7 12.3 161.7 15.2 37.1 1.4 76.8 2.3 116.5 2.8 13.9.2 26.8.3 38.4.4h29.4c11.6-.1 24.5-.2 38.4-.4 39.7-.5 79.4-1.4 116.5-2.8 78-3 133.5-7.7 161.7-15.2 47.9-12.8 85.5-50.5 98.3-98.5 6.1-22.6 10.4-52.7 13.4-88.8 2.2-26.2 3.6-54 4.4-81.9.3-9.7.4-18.8.5-26.9 0-2.9.1-5.4.1-7.6v-5.6zm-72 5.2c0 2.1 0 4.4-.1 7.1-.1 7.8-.3 16.4-.5 25.7-.7 26.6-2.1 53.2-4.2 77.9-2.7 32.2-6.5 58.6-11.2 76.3-6.2 23.1-24.4 41.4-47.4 47.5-21 5.6-73.9 10.1-145.8 12.8-36.4 1.4-75.6 2.3-114.7 2.8-13.7.2-26.4.3-37.8.3h-28.6l-37.8-.3c-39.1-.5-78.2-1.4-114.7-2.8-71.9-2.8-124.9-7.2-145.8-12.8-23-6.2-41.2-24.4-47.4-47.5-4.7-17.7-8.5-44.1-11.2-76.3-2.1-24.7-3.4-51.3-4.2-77.9-.3-9.3-.4-18-.5-25.7 0-2.7-.1-5.1-.1-7.1v-4.8c0-2.1 0-4.4.1-7.1.1-7.8.3-16.4.5-25.7.7-26.6 2.1-53.2 4.2-77.9 2.7-32.2 6.5-58.6 11.2-76.3 6.2-23.1 24.4-41.4 47.4-47.5 21-5.6 73.9-10.1 145.8-12.8 36.4-1.4 75.6-2.3 114.7-2.8 13.7-.2 26.4-.3 37.8-.3h28.6l37.8.3c39.1.5 78.2 1.4 114.7 2.8 71.9 2.8 124.9 7.2 145.8 12.8 23 6.2 41.2 24.4 47.4 47.5 4.7 17.7 8.5 44.1 11.2 76.3 2.1 24.7 3.4 51.3 4.2 77.9.3 9.3.4 18 .5 25.7 0 2.7.1 5.1.1 7.1v4.8zM423 646l232-135-232-133z"></path></svg>
+            </a>
+            </a>
+
+          </div>
+          
+          
+        </div>
+       </div>
+
+      </div>
+      <div class="flex max-md:flex-wrap max-md:justify-center justify-between mt-14 text-white">
+        <div class="text-sm font-medium px-1">
+          Copyright © 2024 TatvaCare | All Rights Reserved
+        </div>
+        <div >
+        <a href="javascript:;" class="text-sm font-medium px-1">Terms & Conditions </a>
+        <a href="javascript:;" class="text-sm font-medium px-1">Terms & Conditions </a>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+
+
+
+</body>
+
+</html>
