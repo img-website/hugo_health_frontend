@@ -148,52 +148,45 @@
 <!-- form -->
  <div>
   <div class="max-w-5xl mx-auto px-6 sm:pt-[78px]">
-    <div class="w-full pt-4 border-b flex justify-center text-sm text-[#5e5e5e] font-medium  border-[#EBEBEB]">
-     <a href="./appoitment.html" class="px-3 text-secondary font-semibold border-b-2 border-secondary">OFFLINE</a>
-     <a href="./online.html" class="px-3">ONLINE</a>
-    </div>
+   
     <div class="flex max-sm:flex-wrap  items-center h-screen  lx:pe-5">
 
       <div class="sm:w-1/3 md:w-1/2 hidden sm:block w-full">
         <div class="w-auto h-96 *:object-contain *:size-full *:object-conytain">
-        <img src="./assets/img/Doc-Mobile2.png" alt="">
+        <img src="./assets/img/advice.png" alt="">
         </div>
       </div>
       <div class="sm:w-2/3 md:w-1/2 w-full lg:px-5">
         <div class="border border-[#EBEBEB]">
           <div class="border-b border-[#EBEBEB]">
-            <div class="p-4 font-semibold text-xl text-[#5e5e5e]">OFFLINE APPOINTMENT</div>
+            <div class="p-4 font-semibold text-xl text-[#5e5e5e]">ADD PATIENT DETAILS</div>
           </div>
           <div class="p-4">
             <form action="">
-              <label for="doctor" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white mt-4">Select Doctor</label>
+              <label for="doctor" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white mt-4">Full Name</label>
 
-              <select class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-secondary w-full p-2.5" id="doctor" name="doctor">
-                <option selected="" value="IN">Select Doctor</option>
-                <option value="SG">Dr.Raghvandra Raguvanshai</option>
-                <option value="PH">Dr.Rudra Dev Pandey</option>
-                <option value="MY">Dr.Sikha</option>
-                <option value="ID">Dr.Manoj Biyani</option>
-              </select>
-
-              <label for="time" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white mt-4">Book Your Slot</label>
-              <div class="flex gap-4">
-                <div class="w-1/2">
-                  <input type="time" id="time" name="time" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-secondary w-full p-2.5">
+              <input class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-secondary w-full p-2.5" id="doctor" name="doctor">
+               
+              <div class="flex max-sm:flex-wrap gap-4">
+                <div class="sm:w-1/2 w-full">
+                  <label for="age" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white mt-4">Age</label>
+                  <input type="text" id="age" name="age" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-secondary w-full p-2.5">
                 </div>
-                <div class="w-1/2">
-                  <input type="time" id="time" name="time" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-secondary w-full p-2.5">
-                </div>
+                <div class="sm:w-1/2 w-full">
+                  <label for="gender" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white mt-4">Gender</label>
 
+                  <input type="text" id="gender" name="gender" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-secondary w-full p-2.5">
+                </div>
               </div>
-              <label for="doctor" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white mt-4">Select Date</label>
-              <input type="date" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-secondary w-full p-2.5">
+              <label for="gender" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white mt-4">Image</label>
+
+              <input type="file" id="gender" name="gender" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-secondary w-full p-2.5">
                
             </form>
 
             <div class="mt-10 text-xs text-[#5e5e5e]">This text ensures that all the essential details for booking an appointment are captured while keeping it clear and concise. You can add or adjust fields based on specific requirements.<div>
-              <a href="./patientDetails.html" class="bg-primary flex justify-center text-white w-full py-3 rounded-lg mt-4 text-sm font-semibold hover:bg-secondary duration-700">
-               Next
+              <a href="javascript:;" class="bg-primary flex justify-center text-white w-full py-3 rounded-lg mt-4 text-sm font-semibold hover:bg-secondary duration-700">
+               Submit
               </a>
 
           </div>
