@@ -111,7 +111,7 @@
   <div class="mt-6 flow-root flex-fill -mr-4 pr-4">
     <div class="-my-6 divide-y divide-gray-500/10">
       <div class="space-y-2 py-6">
-        <div class="flex flex-col gap-5 items-center">
+        <div class="flex flex-col gap-5  items-start">
           <div class="flex flex-col w-full gap-y-5">
             <a href="" class="text-sm font-bold text-gray-50">Home</a>
             <div class="relative flex flex-col gap-y-3">
@@ -138,6 +138,17 @@
             <a href="" class="text-sm font-bold text-gray-50">Blog</a>
             <a href="" class="text-sm font-bold text-gray-50">About Us</a>
           </div>
+          <li class="gap-2 flex justify-start">
+            <a href="./login.html" class="border-white border px-4 py-1.5 text-white rounded-lg">
+              Login
+            </a>
+            <a href="./appoitment.html" class="bg-[#703b96] px-4 py-1.5 text-white rounded-lg">
+              Appointment
+            </a>
+          </li>
+          <div>
+
+          </div>
         </div>
       </div>
     </div>
@@ -147,27 +158,29 @@
 
 <div class="flex flex-col max-w-7xl px-6 lg:px-8 mx-auto pt-[78px]">
   <div class="text-3xl font-primary mb-4 mt-6 text-primary font-semibold">Patient Details</div>
-  <div class="grid grid-cols-4 gap-4 pb-4">
-    <div class="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
-      <div class="flex justify-end px-4 pt-4">
-          <button id="dropdownButton" data-dropdown-toggle="dropdown" class="inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5" type="button">
-            
-          </button>
-          <!-- Dropdown menu -->
-        
-      </div>
-      <div class="flex flex-col items-center pb-10">
-          <img class="w-24 h-24 mb-3 rounded-full shadow-lg object-cover object-center" src="./assets/img/patient.jpg" alt="patient image"/>
-          <div class="mb-1 text-xl font-medium text-gray-900 dark:text-white">Bonnie Green</div>
-          <span class="text-sm text-gray-500 dark:text-gray-400">62</span>
-          <span class="text-lg text-gray-500 dark:text-gray-400">Male</span>
-          <div class="flex mt-4 md:mt-6 w-full px-4">
-              <a href="#" class="flex items-center justify-center px-4 py-2 text-sm font-medium text-center text-white bg-secondary w-full rounded-lg hover:bg-primary duration-700 focus:ring-4 focus:outline-none focus:ring-blue-300 ">Select</a>
+  <div class="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 gap-4 pb-4">
+    <div>
+      <div class="bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+        <div class="flex justify-end px-4 pt-4">
+            <button id="dropdownButton" data-dropdown-toggle="dropdown" class="inline-block text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-1.5" type="button">
               
-          </div>
+            </button>
+            <!-- Dropdown menu -->
+          
+        </div>
+        <div class="flex flex-col items-center pb-10">
+            <img class="w-24 h-24 mb-3 rounded-full shadow-lg object-cover object-center" src="./assets/img/patient.jpg" alt="patient image"/>
+            <div class="mb-1 text-xl font-medium text-gray-900 dark:text-white">Bonnie Green</div>
+            <span class="text-sm text-gray-500 dark:text-gray-400">62</span>
+            <span class="text-lg text-gray-500 dark:text-gray-400">Male</span>
+            <div class="flex mt-4 md:mt-6 w-full px-4">
+                <a href="#" class="flex items-center justify-center px-4 py-2 text-sm font-medium text-center text-white bg-secondary w-full rounded-lg hover:bg-primary duration-700 focus:ring-4 focus:outline-none focus:ring-blue-300 ">Select</a>
+                
+            </div>
+        </div>
       </div>
+      
     </div>
-    
     
     
     </div>
